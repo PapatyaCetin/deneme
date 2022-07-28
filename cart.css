@@ -5,7 +5,7 @@
 }
 html,
 body {
-  min-height: 100%;
+  min-height: 10%;
   font-family: 'Open Sans', sans-serif;
 }
 body {
@@ -21,7 +21,7 @@ Buttons
   background: hsl(86, 76%, 71%);
   color: hsl(0, 0, 100);
   text-decoration: none;
-  margin: 20px 0;
+  margin: 10px 0;
   padding: 15px 15px;
   border-radius: 5px;
   position: relative;
@@ -32,7 +32,7 @@ Buttons
     z-index: 1;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 10%;
     height: 100%;
     transition: all .2s ease-in-out;
     box-shadow: inset 0 3px 0 hsla(0, 0, 0, 0), 0 3px 3px hsla(0, 0, 0, .2);
@@ -347,15 +347,15 @@ Credit Card
 
 
 .the-most {
-  position: fixed;
+  position: relative;
   z-index: 1;
   bottom: 0;
   left: 0;
   width: 50vw;
-  max-width: 200px;
-  padding: 10px;
+  max-width: 100px;
+  padding: 0px;
   
   img {
-    max-width: 100%;
+    max-width: 50%;
   }
 }
